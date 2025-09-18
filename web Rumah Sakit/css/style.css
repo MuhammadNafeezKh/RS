@@ -1,0 +1,187 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+.logo h1 {
+    margin-left: 10px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+}
+nav li {
+    margin-right: 20px;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+nav a:hover {
+    border-bottom: 2px solid #fff;
+}
+
+.hero-sec {
+  background-image: url("https://via.placeholder.com/1200x500");
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000000;
+}
+
+.hero-con {
+  text-align: center;
+}
+
+.hero-con h3 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero-con p {
+  font-size: 1.2rem;
+  color: #ccc;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.rounded-button {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 50px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.rounded-button:hover {
+  background-color: #555;
+}
+.dok{
+padding: 2rem;
+text-align: center;
+}
+.dok h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.dok-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+.dok-item {
+    border-radius: 10px;
+  overflow:hidden;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.dok-item img {
+display: block;
+width: 100%;
+border-radius: 10px 10px 0 0;
+}
+.dok-item p {
+  padding: 0.5rem;
+  background-color: #f2f2f2;
+  margin: 0;
+  border-radius: 0 0 10px 10px;
+}
+.testi{
+    padding: 2rem;
+    height: 500px;
+    text-align: center;
+}
+.testi h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.testi-grid {
+  display: grid;
+  margin-top: 50px;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+.testi-item {
+  margin-top: 20px;
+  text-align: center;
+  background-color: #f9f9f9;
+  padding: 1.5rem; /* fix koma */
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.testi-item img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: -50px;
+    margin-bottom: 1rem;
+}
+.testi-item h4 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+.testi-item p {
+  font-size: 1rem;
+  color: #666;
+  margin: 0;
+}
+footer{
+    background-color: #333;
+    color: #fff;
+    padding: 2rem;
+}
+.Footer-kiri h3{
+margin: 0;
+}
+.Footer-kiri p{
+    font-size: 0.9rem;
+    color: #ccc;
+}
+.Footer-kanan {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+.Footer-gird h4 {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+.Footer-grid ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.Footer-grid li {
+    margin-bottom: 0.5rem;
+}
+
+.Footer-grid a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.Footer-grid a:hover {
+    border-bottom: 1px solid #fff;
+}
+
+.footer-rev{
+    font-size: 16px;
+    text-align: center;
+    color: #ccc;
+}
